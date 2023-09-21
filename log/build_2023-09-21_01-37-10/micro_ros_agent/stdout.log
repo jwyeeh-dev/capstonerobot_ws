@@ -1,0 +1,195 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jay/capstonerobot_ws/build/micro_ros_agent
+[  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+Current branch ros2 is up to date.
+[ 12%] [34m[1mPerforming configure step for 'xrceagent'[0m
+loading initial cache file /home/jay/capstonerobot_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jay/capstonerobot_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[ 18%] [34m[1mPerforming build step for 'xrceagent'[0m
+[  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+Built target microxrcedds_agent
+[ 81%] [34m[1mPerforming install step for 'xrceagent'[0m
+[100%] Built target microxrcedds_agent
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/jay/capstonerobot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+-- Set runtime path of "/home/jay/capstonerobot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/logger
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/participant
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/replier
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/p2p
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/requester
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/datareader
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/publisher
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/reader
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/processor
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/object
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/message
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/topic
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+-- Up-to-date: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[ 81%] [34m[1mCompleted 'xrceagent'[0m
+[ 87%] Built target xrceagent
+[35m[1mScanning dependencies of target micro_ros_agent[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+Built target micro_ros_agent
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+-- Symlinking: /home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py

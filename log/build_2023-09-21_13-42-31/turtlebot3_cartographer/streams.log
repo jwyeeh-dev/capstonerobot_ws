@@ -1,0 +1,48 @@
+[0.194s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_cartographer
+[0.793s] -- The C compiler identification is GNU 9.4.0
+[1.332s] -- The CXX compiler identification is GNU 9.4.0
+[1.353s] -- Check for working C compiler: /usr/bin/cc
+[1.863s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.869s] -- Detecting C compiler ABI info
+[2.300s] -- Detecting C compiler ABI info - done
+[2.368s] -- Detecting C compile features
+[2.376s] -- Detecting C compile features - done
+[2.385s] -- Check for working CXX compiler: /usr/bin/c++
+[2.917s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.918s] -- Detecting CXX compiler ABI info
+[3.398s] -- Detecting CXX compiler ABI info - done
+[3.444s] -- Detecting CXX compile features
+[3.448s] -- Detecting CXX compile features - done
+[3.485s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.715s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.587s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.216s] -- Configuring done
+[5.250s] -- Generating done
+[5.269s] -- Build files have been written to: /home/jay/capstonerobot_ws/build/turtlebot3_cartographer
+[5.278s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_cartographer
+[5.279s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_cartographer -- -j4 -l4
+[5.576s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_cartographer -- -j4 -l4
+[5.995s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_cartographer
+[6.034s] -- Install configuration: ""
+[6.040s] -- Execute custom install script
+[6.042s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[6.105s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[6.145s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[6.160s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[6.188s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[6.212s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[6.242s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[6.307s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[6.350s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[6.393s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[6.432s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[6.461s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[6.482s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[6.515s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[6.552s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[6.604s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[6.677s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[6.736s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[6.791s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[6.844s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_cartographer

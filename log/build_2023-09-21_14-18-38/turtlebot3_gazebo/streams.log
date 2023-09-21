@@ -1,0 +1,531 @@
+[0.038s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo
+[0.080s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.407s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.566s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.718s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.729s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.754s] -- Searching for dependencies of ignition-math6
+[0.762s] -- Looking for OGRE...
+[0.777s] -- Found Ogre Ghadamon (1.9.0)
+[0.778s] -- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so
+[0.800s] -- Looking for OGRE_Paging...
+[0.801s] -- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so
+[0.801s] -- Looking for OGRE_Terrain...
+[0.802s] -- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so
+[0.802s] -- Looking for OGRE_Property...
+[0.802s] -- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so
+[0.802s] -- Looking for OGRE_RTShaderSystem...
+[0.802s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so
+[0.802s] -- Looking for OGRE_Volume...
+[0.802s] -- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so
+[0.802s] -- Looking for OGRE_Overlay...
+[0.802s] -- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so
+[1.243s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.248s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.249s] -- Searching for dependencies of ignition-transport8
+[1.297s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.331s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.351s] -- Checking for module 'libzmq >= 4'
+[1.399s] --   Found libzmq , version 4.3.2
+[1.586s] -- Checking for module 'uuid'
+[1.638s] --   Found uuid, version 2.34.0
+[1.701s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.702s] -- Searching for dependencies of ignition-msgs5
+[1.745s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.754s] -- Checking for module 'tinyxml2'
+[1.789s] --   Found tinyxml2, version 6.2.0
+[1.889s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.891s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.892s] -- Searching for dependencies of ignition-common3
+[1.892s] -- Looking for dlfcn.h - found
+[1.898s] -- Looking for libdl - found
+[1.921s] -- Searching for <ignition-common3> component [graphics]
+[1.921s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.921s] -- Searching for dependencies of ignition-common3-graphics
+[1.921s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.925s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.926s] -- Searching for dependencies of ignition-fuel_tools4
+[2.000s] -- Checking for module 'jsoncpp'
+[2.030s] --   Found jsoncpp, version 1.7.4
+[2.091s] -- Checking for module 'libzip'
+[2.115s] --   Found libzip, version 1.5.1
+[2.161s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.161s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.161s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.166s] -- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+[2.168s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.201s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.572s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.682s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.781s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.788s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.078s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.226s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.373s] -- Configuring done
+[3.527s] -- Generating done
+[3.535s] -- Build files have been written to: /home/jay/capstonerobot_ws/build/turtlebot3_gazebo
+[3.547s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo
+[3.551s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[3.787s] [ 25%] Built target obstacle2
+[3.799s] [ 50%] Built target obstacle1
+[3.812s] [ 75%] Built target obstacles
+[3.841s] [100%] Built target turtlebot3_drive
+[3.866s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[3.948s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_gazebo
+[3.965s] -- Install configuration: ""
+[3.966s] -- Execute custom install script
+[3.969s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[3.972s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[3.974s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/library_world.launch.py
+[3.976s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[3.976s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace.launch.py
+[3.977s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[3.978s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[3.979s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[3.979s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[3.980s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[3.981s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[4.018s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/1.jpg.002.jpg
+[4.020s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/10.jpg
+[4.021s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/100.jpg
+[4.022s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/101.jpg.001.jpg
+[4.022s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/102.jpg
+[4.023s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/103.jpg
+[4.024s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/104.jpg
+[4.025s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/105.jpg
+[4.027s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/106.jpg.001.jpg
+[4.029s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/107.jpg
+[4.029s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/108.jpg
+[4.030s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/109.jpg
+[4.031s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/11.jpg
+[4.032s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/110.jpg
+[4.033s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/111.jpg
+[4.034s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/112.jpg
+[4.034s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/113.jpg
+[4.035s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/114.jpg
+[4.036s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/115.jpg
+[4.037s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/116.jpg
+[4.038s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/117.jpg
+[4.038s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/118.jpg
+[4.039s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/119.jpg
+[4.040s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/12.jpg
+[4.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/120.jpg
+[4.042s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/121.jpg
+[4.043s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/122.jpg
+[4.043s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/123.jpg
+[4.045s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/124.jpg
+[4.045s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/125.jpg
+[4.046s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/126.jpg
+[4.047s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/127.jpg
+[4.049s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/128.jpg
+[4.050s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/129.jpg
+[4.051s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/13.jpg
+[4.051s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/130.jpg
+[4.053s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/131.jpg
+[4.054s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/132.jpg
+[4.054s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/133.jpg
+[4.055s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/134.jpg
+[4.056s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/135.jpg
+[4.059s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/136.jpg
+[4.059s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/137.jpg
+[4.060s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/138.jpg
+[4.061s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/139.jpg
+[4.061s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/14.jpg
+[4.062s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/140.jpg
+[4.062s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/141.jpg
+[4.063s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/142.jpg
+[4.063s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/143.jpg
+[4.064s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/144.jpg
+[4.065s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/145.jpg
+[4.066s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/146.jpg
+[4.066s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/147.jpg
+[4.066s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/148.jpg
+[4.069s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/149.jpg
+[4.069s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/15.jpg
+[4.070s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/150.jpg
+[4.071s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/151.jpg
+[4.072s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/152.jpg
+[4.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/153.jpg
+[4.074s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/154.jpg
+[4.074s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/155.jpg
+[4.075s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/156.jpg
+[4.076s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/157.jpg
+[4.077s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/158.jpg
+[4.077s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/159.jpg
+[4.078s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/16.jpg
+[4.080s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/160.jpg
+[4.080s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/161.jpg
+[4.081s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/162.jpg
+[4.081s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/163.jpg
+[4.081s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/164.jpg
+[4.082s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/165.jpg
+[4.082s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/166.jpg
+[4.083s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/167.jpg
+[4.084s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/168.jpg
+[4.085s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/169.jpg
+[4.085s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/17.jpg
+[4.086s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/170.jpg
+[4.086s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/171.jpg
+[4.087s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/172.jpg
+[4.088s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/173.jpg
+[4.089s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/174.jpg
+[4.089s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/175.jpg
+[4.089s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/176.jpg
+[4.090s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/177.jpg
+[4.091s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/178.jpg
+[4.091s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/179.jpg
+[4.092s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/18.jpg
+[4.093s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/180.jpg
+[4.093s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/181.jpg
+[4.094s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/182.jpg
+[4.094s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/183.jpg
+[4.095s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/184.jpg
+[4.095s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/185.jpg
+[4.096s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/186.jpg
+[4.096s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/187.jpg
+[4.098s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/188.jpg
+[4.099s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/189.jpg
+[4.099s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/19.jpg
+[4.100s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/190.jpg
+[4.101s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/191.jpg
+[4.103s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/192.jpg
+[4.104s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/193.jpg
+[4.105s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/194.jpg
+[4.105s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/195.jpg
+[4.106s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/196.jpg
+[4.106s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/197.jpg
+[4.107s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/198.jpg
+[4.107s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/199.jpg
+[4.108s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/2.jpg
+[4.109s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/20.jpg
+[4.111s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/200.jpg
+[4.112s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/201.jpg
+[4.112s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/202.jpg
+[4.113s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/203.jpg
+[4.114s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/204.jpg
+[4.114s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/205.jpg
+[4.115s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/206.jpg
+[4.117s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/207.jpg
+[4.117s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/208.jpg
+[4.118s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/209.jpg
+[4.118s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/21.jpg
+[4.119s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/210.jpg
+[4.119s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/211.jpg
+[4.120s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/212.jpg
+[4.120s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/213.jpg
+[4.122s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/214.jpg
+[4.125s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/215.jpg
+[4.125s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/216.jpg
+[4.126s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/217.jpg
+[4.128s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/218.jpg
+[4.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/219.jpg
+[4.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/22.jpg
+[4.130s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/220.jpg
+[4.131s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/221.jpg
+[4.132s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/222.jpg
+[4.133s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/223.jpg
+[4.135s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/224.jpg
+[4.136s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/225.jpg
+[4.136s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/226.jpg
+[4.141s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/227.jpg
+[4.142s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/228.jpg
+[4.142s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/229.jpg
+[4.143s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/23.jpg
+[4.144s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/230.jpg
+[4.145s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/231.jpg
+[4.146s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/232.jpg
+[4.148s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/233.jpg
+[4.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/234.jpg
+[4.150s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/235.jpg
+[4.150s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/236.jpg
+[4.151s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/237.jpg
+[4.152s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/238.jpg
+[4.152s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/239.jpg
+[4.153s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/24.jpg
+[4.154s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/240.jpg
+[4.154s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/241.jpg
+[4.155s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/242.jpg
+[4.156s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/243.jpg
+[4.157s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/244.jpg
+[4.158s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/245.jpg
+[4.159s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/246.jpg
+[4.159s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/247.jpg
+[4.160s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/248.jpg
+[4.161s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/249.jpg
+[4.162s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/25.jpg
+[4.162s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/250.jpg
+[4.163s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/251.jpg
+[4.164s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/252.jpg
+[4.165s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/253.jpg
+[4.165s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/254.jpg
+[4.166s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/255.jpg
+[4.167s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/256.jpg
+[4.168s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/257.jpg
+[4.169s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/258.jpg
+[4.170s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/259.jpg
+[4.171s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/26.jpg
+[4.172s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/260.jpg
+[4.173s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/261.jpg
+[4.174s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/262.jpg
+[4.174s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/263.jpg
+[4.175s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/264.jpg
+[4.176s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/265.jpg
+[4.177s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/266.jpg
+[4.179s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/267.jpg
+[4.179s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/268.jpg
+[4.179s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/269.jpg
+[4.179s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/27.jpg
+[4.179s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/270.jpg
+[4.180s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/271.jpg
+[4.181s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/272.jpg
+[4.182s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/273.jpg
+[4.182s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/274.jpg
+[4.182s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/275.jpg
+[4.183s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/276.jpg
+[4.183s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/277.jpg
+[4.184s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/278.jpg
+[4.185s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/279.jpg
+[4.186s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/28.jpg
+[4.187s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/280.jpg
+[4.187s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/281.jpg
+[4.188s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/282.jpg
+[4.189s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/283.jpg
+[4.191s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/284.jpg
+[4.193s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/285.jpg
+[4.194s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/286.jpg
+[4.194s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/287.jpg
+[4.196s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/288.jpg
+[4.197s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/289.jpg
+[4.197s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/29.jpg
+[4.198s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/290.jpg
+[4.199s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/291.jpg
+[4.202s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/292.jpg
+[4.204s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/293.jpg
+[4.206s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/294.jpg
+[4.208s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/295.jpg
+[4.209s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/296.jpg
+[4.209s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/297.jpg
+[4.210s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/298.jpg
+[4.211s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/299.jpg
+[4.211s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/3.jpg
+[4.213s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/30.jpg
+[4.213s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/300.jpg
+[4.214s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/31.jpg
+[4.214s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/32.jpg
+[4.215s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/33.jpg
+[4.217s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/34.jpg
+[4.218s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/35.jpg
+[4.219s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/36.jpg
+[4.220s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/37.jpg
+[4.221s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/38.jpg
+[4.222s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/39.jpg
+[4.222s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/4.jpg
+[4.223s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/40.jpg
+[4.224s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/41.jpg
+[4.225s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/42.jpg
+[4.227s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/43.jpg
+[4.228s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/44.jpg
+[4.229s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/45.jpg
+[4.230s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/46.jpg
+[4.230s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/47.jpg
+[4.231s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/48.jpg
+[4.231s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/49.jpg
+[4.233s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/5.jpg
+[4.233s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/50.jpg
+[4.234s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/51.jpg
+[4.235s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/52.jpg
+[4.237s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/53.jpg
+[4.237s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/54.jpg
+[4.239s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/55.jpg
+[4.239s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/56.jpg
+[4.240s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/57.jpg
+[4.242s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/58.jpg
+[4.243s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/59.jpg
+[4.244s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/6.jpg
+[4.244s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/60.jpg
+[4.245s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/61.jpg
+[4.246s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/62.jpg
+[4.248s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/63.jpg
+[4.249s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/64.jpg
+[4.250s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/65.jpg
+[4.250s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/66.jpg
+[4.251s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/67.jpg
+[4.252s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/68.jpg
+[4.253s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/69.jpg
+[4.253s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/7.jpg
+[4.253s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/70.jpg
+[4.254s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/71.jpg
+[4.256s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/72.jpg
+[4.257s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/73.jpg
+[4.258s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/74.jpg
+[4.268s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/75.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/76.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/77.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/78.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/79.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/8.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/80.jpg
+[4.270s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/81.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/82.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/83.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/84.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/85.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/86.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/87.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/88.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/89.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/9.jpg
+[4.271s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/90.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/91.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/92.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/93.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/94.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/95.jpg
+[4.272s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/96.jpg
+[4.273s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/97.jpg
+[4.273s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/98.jpg
+[4.274s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/materials/textures/99.jpg
+[4.277s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/meshes/shelf1.dae
+[4.280s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/meshes/shelf2.dae
+[4.280s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/meshes/shelf3.dae
+[4.280s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/model-1_4.sdf
+[4.281s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/model.config
+[4.281s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/library_table/model.sdf
+[4.283s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/scripts/course.material
+[4.285s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/materials/textures/course.png
+[4.285s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.config
+[4.286s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/course/model.sdf
+[4.287s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.config
+[4.287s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/ground/model.sdf
+[4.288s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.config
+[4.289s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/lights/model.sdf
+[4.290s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/model.config
+[4.292s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/scripts/traffic_bar.material
+[4.293s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/materials/textures/traffic_bar.png
+[4.293s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.config
+[4.294s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_down/model.sdf
+[4.295s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/scripts/traffic_bar.material
+[4.296s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/materials/textures/traffic_bar.png
+[4.299s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.config
+[4.299s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_bar_up/model.sdf
+[4.299s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.config
+[4.300s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_green/model.sdf
+[4.300s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.config
+[4.301s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_red/model.sdf
+[4.302s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.config
+[4.302s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_light_yellow/model.sdf
+[4.309s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/scripts/traffic_parking.material
+[4.311s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/materials/textures/traffic_parking.png
+[4.312s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.config
+[4.313s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_parking/model.sdf
+[4.315s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/scripts/traffic_stop.material
+[4.317s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/materials/textures/traffic_stop.png
+[4.318s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.config
+[4.318s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_stop/model.sdf
+[4.322s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/scripts/tunnel.material
+[4.322s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/materials/textures/tunnel.png
+[4.323s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.config
+[4.324s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/traffic_tunnel/model.sdf
+[4.325s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.config
+[4.328s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_obstacles/model.sdf
+[4.330s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.config
+[4.331s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace/tunnel_wall/model.sdf
+[4.333s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[4.334s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[4.335s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[4.336s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[4.337s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[4.337s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[4.338s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/meshes/burger_base.dae
+[4.340s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/meshes/lds.dae
+[4.341s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/meshes/tire.dae
+[4.341s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/model-1_4.sdf
+[4.342s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/model.config
+[4.342s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_orig/model.sdf
+[4.344s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[4.345s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[4.347s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[4.347s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[4.349s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[4.349s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[4.353s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[4.353s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[4.354s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[4.354s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[4.354s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[4.355s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[4.356s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[4.357s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[4.358s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[4.358s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[4.359s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[4.360s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[4.362s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/lds.dae
+[4.363s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/r200.dae
+[4.364s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/tire.dae
+[4.365s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/meshes/waffle_base.dae
+[4.366s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[4.366s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[4.367s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[4.369s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/lds.dae
+[4.370s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/tire.dae
+[4.370s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/meshes/waffle_pi_base.dae
+[4.371s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[4.372s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[4.373s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[4.375s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[4.375s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[4.375s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[4.376s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[4.377s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[4.378s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[4.388s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/burger.model
+[4.389s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle.model
+[4.389s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_worlds/waffle_pi.model
+[4.390s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/library_table/burger.model
+[4.391s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/library_table/turtlebot3_custom.urdf
+[4.392s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/library_table/waffle.model
+[4.393s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/library_table/waffle_pi.model
+[4.394s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/burger.model
+[4.394s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle.model
+[4.395s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autoraces/waffle_pi.model
+[4.395s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/burger.model
+[4.397s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle.model
+[4.397s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1/waffle_pi.model
+[4.398s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/burger.model
+[4.398s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle.model
+[4.399s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2/waffle_pi.model
+[4.400s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/burger.model
+[4.401s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle.model
+[4.402s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3/waffle_pi.model
+[4.403s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/burger.model
+[4.404s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle.model
+[4.405s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4/waffle_pi.model
+[4.407s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/burger.model
+[4.408s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle.model
+[4.409s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_houses/waffle_pi.model
+[4.410s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/burger.model
+[4.410s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle.model
+[4.411s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_worlds/waffle_pi.model
+[4.412s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[4.413s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[4.414s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[4.415s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[4.415s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[4.416s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[4.416s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[4.418s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[4.418s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[4.419s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[4.420s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[4.420s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[4.435s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[4.437s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.438s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.439s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[4.440s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[4.440s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[4.445s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_description:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_navigation2:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/turtlebot3_msgs:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_cartographer:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_gazebo

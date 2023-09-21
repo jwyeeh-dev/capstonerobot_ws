@@ -1,0 +1,189 @@
+[0.024s] Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/drive_base_msgs
+[0.053s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.154s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.058s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.104s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.389s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.562s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.496s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[3.496s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[3.496s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[3.496s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.677s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.477s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.662s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.662s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.663s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.883s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[5.885s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[5.952s] -- Configuring done
+[6.330s] -- Generating done
+[6.369s] -- Build files have been written to: /home/jay/capstonerobot_ws/build/drive_base_msgs
+[6.403s] Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/drive_base_msgs
+[6.405s] Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/drive_base_msgs -- -j4 -l4
+[6.837s] [  1%] Built target drive_base_msgs__cpp
+[7.025s] [ 10%] Built target drive_base_msgs__rosidl_generator_c
+[7.221s] [ 18%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[7.449s] [ 27%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_cpp
+[7.585s] [ 36%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[7.639s] [ 44%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_c
+[7.686s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_c
+[7.800s] [ 62%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[8.017s] [ 71%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[8.269s] [ 79%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[8.445s] [ 79%] Built target drive_base_msgs
+[8.637s] [ 81%] Built target drive_base_msgs__py
+[8.832s] [ 88%] Built target drive_base_msgs__python
+[9.076s] [ 91%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[9.317s] [ 94%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[9.504s] [ 97%] Built target drive_base_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[9.685s] [100%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.751s] Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/drive_base_msgs -- -j4 -l4
+[11.912s] Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/drive_base_msgs
+[11.951s] -- Install configuration: ""
+[11.952s] -- Execute custom install script
+[11.953s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[11.955s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.h
+[11.956s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.h
+[11.956s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.h
+[11.957s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.h
+[11.957s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.h
+[11.958s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.h
+[11.958s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.h
+[11.958s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.h
+[11.959s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.h
+[11.959s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.h
+[11.960s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.h
+[11.964s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.h
+[11.965s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.h
+[11.966s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.h
+[11.967s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.h
+[11.971s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.971s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.h
+[11.972s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[11.972s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[11.975s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_microxrcedds_c.h
+[11.976s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_microxrcedds_c.h
+[11.977s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_microxrcedds_c.h
+[11.979s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_microxrcedds_c.h
+[11.991s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[11.993s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_microxrcedds_c.a
+[11.995s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[12.004s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[12.004s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[12.005s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[12.005s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.006s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[12.008s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.008s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[12.011s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.012s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.012s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.013s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.014s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[12.016s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[12.016s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[12.019s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[12.020s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.022s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.hpp
+[12.023s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.hpp
+[12.024s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.hpp
+[12.025s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__builder.hpp
+[12.025s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.hpp
+[12.027s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__traits.hpp
+[12.034s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[12.035s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__builder.hpp
+[12.036s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.hpp
+[12.036s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__traits.hpp
+[12.037s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[12.039s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__builder.hpp
+[12.040s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.hpp
+[12.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__traits.hpp
+[12.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[12.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[12.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[12.041s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[12.042s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[12.042s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.043s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.hpp
+[12.046s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[12.048s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_microxrcedds_cpp.hpp
+[12.048s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[12.054s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/base_info__type_support_cpp.cpp
+[12.056s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/command_header__type_support_cpp.cpp
+[12.057s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/command_status__type_support_cpp.cpp
+[12.057s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/microxrcedds/trv_command__type_support_cpp.cpp
+[12.059s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_microxrcedds_cpp.hpp
+[12.060s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[12.064s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_microxrcedds_cpp.a
+[12.071s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[12.072s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[12.072s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[12.072s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[12.072s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/__init__.py
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info.py
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header.py
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status.py
+[12.073s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command.py
+[12.082s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-aarch64-linux-gnu.so
+[12.083s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[12.085s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[12.088s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[12.095s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so
+[12.095s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[12.104s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[12.104s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[12.105s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[12.114s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[12.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[12.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[12.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[12.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[12.131s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[12.131s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[12.131s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[12.132s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[12.133s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[12.138s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[12.138s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[12.139s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[12.139s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[12.140s] -- Symlinking: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[12.213s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[12.213s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[12.213s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.214s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[12.214s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[12.214s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.215s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.216s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.216s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[12.216s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[12.217s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[12.217s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[12.218s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[12.218s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[12.219s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[12.220s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[12.417s] Compiling '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py'...
+[12.453s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport.cmake
+[12.453s] -- Installing: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[12.453s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[12.453s] -- Installing: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.454s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[12.454s] -- Installing: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[12.455s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cppExport.cmake
+[12.459s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[12.459s] -- Installing: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.459s] -- Up-to-date: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[12.459s] -- Installing: /home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[12.460s] Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/drive_base_msgs

@@ -1,0 +1,69 @@
+[0.084s] Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver
+[0.123s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.371s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.380s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.831s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.146s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.341s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.467s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.499s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.588s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.624s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.624s] -- Configured cppcheck include dirs: /home/jay/capstonerobot_ws/src/ydlidar_ros2_driver/src
+[1.624s] -- Configured cppcheck exclude dirs and/or files: 
+[1.635s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.635s] -- Configured cpplint exclude dirs and/or files: 
+[1.636s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.639s] -- Added test 'lint_cmake' to check CMake code style
+[1.640s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.651s] -- Added test 'uncrustify' to check C / C++ code style
+[1.651s] -- Configured uncrustify additional arguments: 
+[1.652s] -- Added test 'xmllint' to check XML markup files
+[1.657s] -- Configuring done
+[1.706s] -- Generating done
+[1.710s] -- Build files have been written to: /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver
+[1.719s] Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver
+[1.720s] Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[1.815s] [ 50%] Built target ydlidar_ros2_driver_node
+[1.817s] [100%] Built target ydlidar_ros2_driver_client
+[1.833s] Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[1.883s] Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver
+[1.895s] -- Install configuration: ""
+[1.896s] -- Execute custom install script
+[1.896s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[1.896s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[1.898s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[1.907s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[1.908s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[1.908s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[1.908s] -- Symlinking: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[1.916s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[1.917s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[1.917s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[1.917s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[1.923s] Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver

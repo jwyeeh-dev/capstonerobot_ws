@@ -1,0 +1,793 @@
+[0.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.165s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9af85370>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9af85370>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9af858b0>)
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jay/capstonerobot_ws'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(python_files/test_set/wrong) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/jay/capstonerobot_ws/install
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/jay/colcon_ws/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/foxy
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.252s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'micro_ros_msgs' is in: /home/jay/capstonerobot_ws/install/micro_ros_msgs, /home/jay/colcon_ws/install/micro_ros_msgs
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding micro_ros_msgs
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/uros/micro_ros_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/micro_ros_setup', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': True, 'test_result_base': None}
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.255s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/ydlidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': True, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jay/capstonerobot_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jay/capstonerobot_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[0.258s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/uros/micro_ros_msgs'
+[0.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_msgs
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_fake_node
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/drive_base_msgs
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/micro_ros_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_msgs
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_msgs -- -j4 -l4
+[1.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/drive_base/drive_base_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/drive_base_msgs
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/drive_base_msgs -- -j4 -l4
+[1.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_msgs -- -j4 -l4
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_fake_node
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_fake_node -- -j4 -l4
+[1.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_fake_node -- -j4 -l4
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_fake_node
+[1.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_fake_node
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node' for CMake module files
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node' for CMake config files
+[1.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/bin'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/bin'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_msgs
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/drive_base_msgs -- -j4 -l4
+[1.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[1.820s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node' for CMake module files
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node' for CMake config files
+[1.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/bin'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[1.823s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/bin'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[1.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[1.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[1.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/micro_ros_setup'
+[1.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_setup
+[1.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs' for CMake module files
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs' for CMake config files
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_msgs
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib'
+[1.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/bin'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/bin'
+[1.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/drive_base_msgs
+[2.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs' for CMake module files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs' for CMake config files
+[2.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib'
+[2.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/bin'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[2.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_msgs/bin'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.103s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[2.103s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/ydlidar_ros2_driver'
+[2.105s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_setup
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_setup -- -j4 -l4
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver
+[2.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_setup -- -j4 -l4
+[2.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_setup
+[2.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup' for CMake module files
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup' for CMake config files
+[2.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_setup
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/bin'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/bin'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo
+[2.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[2.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs' for CMake module files
+[2.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/drive_base_msgs
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs' for CMake config files
+[2.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib'
+[2.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/bin'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages'
+[2.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[2.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/bin'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[2.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[2.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup' for CMake module files
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup' for CMake config files
+[2.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/bin'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_setup/bin'
+[2.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[2.329s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[2.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_agent
+[2.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_gazebo -- -j4 -l4
+[2.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_gazebo
+[2.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs' for CMake module files
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs' for CMake config files
+[2.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib'
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/bin'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/lib/python3.8/site-packages'
+[2.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/drive_base_msgs/bin'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[2.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[2.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo' for CMake module files
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo' for CMake config files
+[2.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/bin'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/bin'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_gazebo
+[2.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/jay/capstonerobot_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/micro_ros_agent
+[2.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_agent -- -j4 -l4
+[2.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[2.849s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo' for CMake module files
+[2.850s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo' for CMake config files
+[2.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/bin'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[2.852s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/bin'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[2.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[2.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[2.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[2.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[2.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[2.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_simulations
+[2.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/micro_ros_agent -- -j4 -l4
+[2.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_agent
+[2.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/ydlidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver
+[2.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[2.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[2.955s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent' for CMake module files
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/jay/capstonerobot_ws/install/micro_ros_msgs/lib:/home/jay/capstonerobot_ws/install/micro_ros_agent/lib:/home/jay/capstonerobot_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/action_msgs/lib:/home/jay/colcon_ws/install/unique_identifier_msgs/lib:/home/jay/colcon_ws/install/std_srvs/lib:/home/jay/colcon_ws/install/drive_base_msgs/lib:/home/jay/colcon_ws/install/std_msgs/lib:/home/jay/colcon_ws/install/rmw_microxrcedds/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/jay/colcon_ws/install/rcl_interfaces/lib:/home/jay/colcon_ws/install/micro_ros_agent/lib:/home/jay/colcon_ws/install/micro_ros_msgs/lib:/home/jay/colcon_ws/install/complex_msgs/lib:/home/jay/colcon_ws/install/builtin_interfaces/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/micro_ros_agent
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent' for CMake config files
+[2.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib'
+[2.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[2.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[2.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[2.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/bin'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[2.960s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/bin'
+[2.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[2.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[2.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[3.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[3.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent' for CMake module files
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent' for CMake config files
+[3.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[3.035s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib'
+[3.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/bin'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/micro_ros_agent/bin'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[3.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[3.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver
+[3.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_simulations
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_simulations -- -j4 -l4
+[3.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver' for CMake module files
+[3.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/ydlidar_ros2_driver
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver' for CMake config files
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/bin'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/bin'
+[3.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[3.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[3.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[3.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_simulations -- -j4 -l4
+[3.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_simulations
+[3.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver' for CMake module files
+[3.133s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver' for CMake config files
+[3.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[3.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/bin'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/bin'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[3.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[3.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[3.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations' for CMake module files
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/jay/capstonerobot_ws/install/turtlebot3_gazebo:/home/jay/capstonerobot_ws/install/turtlebot3_fake_node:/home/jay/capstonerobot_ws/install/ydlidar_ros2_driver:/home/jay/capstonerobot_ws/install/turtlebot3_simulations:/home/jay/capstonerobot_ws/install/micro_ros_setup:/home/jay/capstonerobot_ws/install/micro_ros_agent:/home/jay/capstonerobot_ws/install/micro_ros_msgs:/home/jay/capstonerobot_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/ydlidar_ros2_driver:/home/jay/colcon_ws/install/action_msgs:/home/jay/colcon_ws/install/unique_identifier_msgs:/home/jay/colcon_ws/install/turtlebot3_simulations:/home/jay/colcon_ws/install/turtlebot3_gazebo:/home/jay/colcon_ws/install/turtlebot3_fake_node:/home/jay/colcon_ws/install/std_srvs:/home/jay/colcon_ws/install/drive_base_msgs:/home/jay/colcon_ws/install/std_msgs:/home/jay/colcon_ws/install/rmw_microxrcedds:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/jay/colcon_ws/install/rosidl_typesupport_microxrcedds_c:/home/jay/colcon_ws/install/rcl_interfaces:/home/jay/colcon_ws/install/microxrcedds_client:/home/jay/colcon_ws/install/microcdr:/home/jay/colcon_ws/install/micro_ros_setup:/home/jay/colcon_ws/install/micro_ros_agent:/home/jay/colcon_ws/install/micro_ros_msgs:/home/jay/colcon_ws/install/complex_msgs:/home/jay/colcon_ws/install/builtin_interfaces:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_simulations
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations' for CMake config files
+[3.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/bin'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/bin'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[3.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[3.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[3.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[3.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[3.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[3.174s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations' for CMake module files
+[3.174s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations' for CMake config files
+[3.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/bin'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[3.176s] Level 1:colcon.colcon_core.environment:checking '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/bin'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[3.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jay/capstonerobot_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[3.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.179s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.189s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.203s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.204s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jay/capstonerobot_ws/install/local_setup.ps1'
+[3.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jay/capstonerobot_ws/install/_local_setup_util_ps1.py'
+[3.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jay/capstonerobot_ws/install/setup.ps1'
+[3.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jay/capstonerobot_ws/install/local_setup.sh'
+[3.208s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jay/capstonerobot_ws/install/_local_setup_util_sh.py'
+[3.208s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jay/capstonerobot_ws/install/setup.sh'
+[3.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jay/capstonerobot_ws/install/local_setup.bash'
+[3.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jay/capstonerobot_ws/install/setup.bash'
+[3.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jay/capstonerobot_ws/install/local_setup.zsh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jay/capstonerobot_ws/install/setup.zsh'

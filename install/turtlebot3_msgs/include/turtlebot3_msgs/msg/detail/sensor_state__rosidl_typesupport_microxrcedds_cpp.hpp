@@ -1,0 +1,1 @@
+/home/jay/capstonerobot_ws/build/turtlebot3_msgs/rosidl_typesupport_microxrcedds_cpp/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_microxrcedds_cpp.hpp
