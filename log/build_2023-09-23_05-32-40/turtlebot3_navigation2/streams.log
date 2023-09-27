@@ -1,0 +1,36 @@
+[0.083s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_navigation2
+[0.140s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.486s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.647s] -- Configuring done
+[0.650s] -- Generating done
+[0.651s] -- Build files have been written to: /home/jay/capstonerobot_ws/build/turtlebot3_navigation2
+[0.685s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/jay/capstonerobot_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jay/capstonerobot_ws/install/turtlebot3_navigation2
+[0.686s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[0.785s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/jay/capstonerobot_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[1.095s] Invoking command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_navigation2
+[1.129s] -- Install configuration: ""
+[1.129s] -- Execute custom install script
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.129s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.137s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.143s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.143s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.143s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.148s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.149s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.149s] -- Symlinking: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.181s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.181s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.181s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.182s] -- Up-to-date symlink: /home/jay/capstonerobot_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.199s] Invoked command in '/home/jay/capstonerobot_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jay/capstonerobot_ws/install/turtlebot3_teleop:/home/jay/capstonerobot_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/jay/capstonerobot_ws/build/turtlebot3_navigation2
