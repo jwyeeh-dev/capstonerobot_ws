@@ -1,1 +1,0 @@
-/home/jay/capstonerobot_ws/build/turtlebot3_msgs/rosidl_typesupport_microxrcedds_cpp/turtlebot3_msgs/action/detail/microxrcedds/patrol__type_support_cpp.cpp

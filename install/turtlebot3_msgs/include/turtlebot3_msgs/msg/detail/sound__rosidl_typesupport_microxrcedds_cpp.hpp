@@ -1,1 +1,0 @@
-/home/jay/capstonerobot_ws/build/turtlebot3_msgs/rosidl_typesupport_microxrcedds_cpp/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_microxrcedds_cpp.hpp

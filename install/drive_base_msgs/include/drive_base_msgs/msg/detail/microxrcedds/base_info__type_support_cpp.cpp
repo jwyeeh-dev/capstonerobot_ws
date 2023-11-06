@@ -1,1 +1,0 @@
-/home/jay/capstonerobot_ws/build/drive_base_msgs/rosidl_typesupport_microxrcedds_cpp/drive_base_msgs/msg/detail/microxrcedds/base_info__type_support_cpp.cpp
