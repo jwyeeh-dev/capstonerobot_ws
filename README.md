@@ -2,14 +2,15 @@
 
 
 ## Introduction
-This document serves as a guide for setting up a workspace for developing robotic software using ROS2. This workspace provides an environment for the development, building, and execution of ROS2 Workspace Packages for Differential Drive Robot of Capstone Projects. 
+- This document serves as a guide for setting up a workspace for developing robotic software using ROS2. This workspace provides an environment for the development, building, and execution of ROS2 Workspace Packages for `Differential Drive Robot of Capstone Projects.` 
+- If you want to try to implement our library robot, please click [`this link`](https://www.github.com/jwyeeh-dev/Capstone_libraryrobot/)
 <div align = "center"><img width="900" alt="Introduction_pic" src="https://github.com/jwyeeh-dev/capstonerobot_ws/assets/99489807/395723f0-aa0f-45d1-b937-37b1ac950b2a"></div>
 
 
 ## Working Condition
-- OS types : [Ubuntu 20.04 Focal Fossa (Recommended)](https://releases.ubuntu.com/focal/) or [Ubuntu 22.04 Jammy Jellyfish](https://releases.ubuntu.com/jammy/)
-- ROS2 Version : [ROS2 Foxy Fitzroy](https://docs.ros.org/en/foxy/index.html)
-- Library : [TURTLEBOT3 FOXY library](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
+- OS types : [`Ubuntu 20.04 Focal Fossa (Recommended)`](https://releases.ubuntu.com/focal/) or [`Ubuntu 22.04 Jammy Jellyfish`](https://releases.ubuntu.com/jammy/)
+- ROS2 Version : [`ROS2 Foxy Fitzroy`](https://docs.ros.org/en/foxy/index.html)
+- Library : [`TURTLEBOT3 FOXY library`](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
 
 
 ## Structure
@@ -25,9 +26,9 @@ The workspace includes the following directory structure:
 ## Installation Instructions
 - You can download this workspace, and modify workspace according to your custom robot specifications.
 - If you can't execute this workspace after clone this repo by error, please download these libraries below.
-  - `ydlidar_ros2_driver` & `ydlidar_sdk`
-  - `micro_ros_setup`
-  - [TURTLEBOT3 FOXY library](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
+  - [`ydlidar_ros2_driver`](https://github.com/YDLIDAR/ydlidar_ros2_driver) & [`YDlidar_SDK`](https://github.com/YDLIDAR/YDLidar-SDK)
+  - [`micro_ros_setup`](https://github.com/micro-ROS/micro_ros_setup)
+  - [`TURTLEBOT3 FOXY library`](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
 
 
 ## Workspace Setup
